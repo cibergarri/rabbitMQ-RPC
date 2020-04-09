@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-rpc",
+  "version": "1.0.0",
+  "description": "Routing messages to different queues based on a topic (regular expression).",
+  "main": "constants.js",
+  "dependencies": {
+    "amqplib": "0.5.5",
+    "uuid": "7.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "node ./rpc-client",
+    "server": "node ./rpc-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cibergarri/rabbitMQ-RPC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cibergarri/rabbitMQ-RPC/issues"
+  },
+  "homepage": "https://github.com/cibergarri/rabbitMQ-RPC#readme"
+}
