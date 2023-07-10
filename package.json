@@ -4,7 +4,7 @@
   "description": "Routing messages to different queues based on a topic (regular expression).",
   "main": "constants.js",
   "dependencies": {
-    "amqplib": "0.5.5",
+    "amqplib": "0.10.3",
     "uuid": "7.0.3"
   },
   "devDependencies": {},
